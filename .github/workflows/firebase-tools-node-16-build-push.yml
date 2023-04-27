@@ -25,5 +25,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: firebase-toos:latest-node-16
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/firebase-toos:latest-node-16
           file: Dockerfile.node16
