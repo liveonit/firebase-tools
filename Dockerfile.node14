@@ -1,0 +1,28 @@
+FROM node:14-alpine
+
+ENV FIREBASE_TOOLS_VERSION=11.29.0
+
+ENV HOME=/home/firebase
+RUN apk --no-cache add openjdk11-jre bash
+RUN yarn global add firebase-tools@${FIREBASE_TOOLS_VERSION} && \
+    yarn cache clean && \
+    firebase setup:emulators:database && \
+    firebase setup:emulators:firestore && \
+    firebase setup:emulators:pubsub && \
+    firebase setup:emulators:storage && \
+    firebase -V && \
+    java -version && \
+    chown -R node:node $HOME
+EXPOSE 4000
+EXPOSE 5000
+EXPOSE 5001
+EXPOSE 8080
+EXPOSE 8085
+EXPOSE 9000
+EXPOSE 9005
+EXPOSE 9099
+EXPOSE 9199
+
+VOLUME $HOME/.cache
+WORKDIR $HOME
+CMD ["sh"]
