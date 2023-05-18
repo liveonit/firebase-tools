@@ -2,10 +2,16 @@
 
 [Firebase CLI](https://www.npmjs.com/package/firebase-tools) installed globally over the official [NodeJS image](https://hub.docker.com/_/node)
 
-![version](https://img.shields.io/docker/v/liveonit/firebase-tools?sort=semver)
-![image_pulls](https://img.shields.io/docker/pulls/liveonit/firebase-tools?label=pulls)
-![build status](https://github.com/liveonit/firebase-tools/actions/workflows/default.yml/badge.svg)
 
+Images Status
+
+![image_pulls](https://img.shields.io/docker/pulls/liveonit/firebase-tools)
+
+| Build Status | Size |
+|--------------|------|
+| ![Node 18 image size](https://img.shields.io/docker/image-size/liveonit/firebase-tools/latest-node-18?label=latest-node-18) | ![Node 18 build status](https://github.com/liveonit/firebase-tools/actions/workflows/firebase-tools-node-18-build.yml/badge.svg) |
+| ![Node 16 image size](https://img.shields.io/docker/image-size/liveonit/firebase-tools/latest-node-16?label=latest-node-16) | ![Node 16 build status](https://github.com/liveonit/firebase-tools/actions/workflows/firebase-tools-node-16-build.yml/badge.svg) |
+| ![Node 14 image size](https://img.shields.io/docker/image-size/liveonit/firebase-tools/latest-node-14?label=latest-node-14) | ![Node 14 build status](https://github.com/liveonit/firebase-tools/actions/workflows/firebase-tools-node-14-build.yml/badge.svg) |
 ```
 THIS DOCKER IMAGE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
