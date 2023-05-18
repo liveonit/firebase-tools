@@ -4,7 +4,7 @@
 
 ![version](https://img.shields.io/docker/v/liveonit/firebase-tools?sort=semver)
 ![image_pulls](https://img.shields.io/docker/pulls/liveonit/firebase-tools?label=pulls)
-![build status](https://github.com/liveonit/firebase-tools-docker/actions/workflows/default.yml/badge.svg)
+![build status](https://github.com/liveonit/firebase-tools/actions/workflows/default.yml/badge.svg)
 
 ```
 THIS DOCKER IMAGE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
@@ -18,15 +18,15 @@ OUT OF OR IN CONNECTION WITH THE DOCKER IMAGE OR THE USE OR OTHER DEALINGS IN TH
 ## Quick reference
 
 #### Tags & Dockerfiles
-* [latest-node-18](https://github.com/liveonit/firebase-tools-docker/blob/main/Dockerfile.node18)
-* [latest-node-16](https://github.com/liveonit/firebase-tools-docker/blob/main/Dockerfile.node16)
-* [latest-node-14](https://github.com/liveonit/firebase-tools-docker/blob/main/Dockerfile.node14)
+* [latest-node-18](https://github.com/liveonit/firebase-tools/blob/main/Dockerfile.node18)
+* [latest-node-16](https://github.com/liveonit/firebase-tools/blob/main/Dockerfile.node16)
+* [latest-node-14](https://github.com/liveonit/firebase-tools/blob/main/Dockerfile.node14)
 
 #### Where to find more versions and tags
 [the Tags page on Docker Hub](https://hub.docker.com/r/liveonit/firebase-tools/tags)
 
 #### Where to file issues
-[the Issues page on Github](https://github.com/liveonit/firebase-tools-docker/issues)
+[the Issues page on Github](https://github.com/liveonit/firebase-tools/issues)
 
 
 ## Image content
@@ -53,4 +53,4 @@ OUT OF OR IN CONNECTION WITH THE DOCKER IMAGE OR THE USE OR OTHER DEALINGS IN TH
 
 ## Guides
 
-[Running Firebase Emulators](https://github.com/liveonit/firebase-tools-docker/blob/main/doc/guide/running_firebase_emulators.md)
+[Running Firebase Emulators](https://github.com/liveonit/firebase-tools/blob/main/doc/guide/running_firebase_emulators.md)
