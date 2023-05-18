@@ -6,7 +6,7 @@ on:
       - 'main'
 
 jobs:
-  docker-node-18-build-push:
+  docker-node-18-build:
     runs-on: ubuntu-latest
     steps:
       - name: Set up QEMU
