@@ -10,6 +10,7 @@ RUN yarn global add firebase-tools@${FIREBASE_TOOLS_VERSION} && \
     firebase setup:emulators:firestore && \
     firebase setup:emulators:pubsub && \
     firebase setup:emulators:storage && \
+    firebase setup:emulators:ui && \
     firebase -V && \
     java -version && \
     chown -R node:node $HOME
