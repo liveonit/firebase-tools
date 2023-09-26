@@ -1,6 +1,6 @@
 FROM node:16-alpine
 
-ENV FIREBASE_TOOLS_VERSION=11.29.0
+ENV FIREBASE_TOOLS_VERSION=12.6.0
 
 ENV HOME=/home/firebase
 RUN apk --no-cache add openjdk11-jre bash
